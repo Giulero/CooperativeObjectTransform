@@ -1,0 +1,6 @@
+function [e_p,e_v,e_r,e_om] = getErrors(p_des,p_act, v_des, v_act, R_des, R_act)
+e_p = p_act - p_des;
+e_v = v_act - v_des;
+e_r = 0.5*scap(
+end
+
